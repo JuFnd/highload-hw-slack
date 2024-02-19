@@ -26,5 +26,5 @@ Slack представляет собой бизнес-мессенджер, о�
 - MAU 65M [^1]
 
 ### Статистика
-[^1]: MAU(https://www.statista.com/statistics/1025213/worldwide-slack-active-users/)
+[^1]: [MAU](https://www.statista.com/statistics/1025213/worldwide-slack-active-users/)
 
