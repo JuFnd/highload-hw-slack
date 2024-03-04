@@ -118,6 +118,7 @@ Slack представляет собой бизнес-мессенджер, о�
 
 ## Часть 3. Глобальная балансировка <a name="3"></a>
 
+### Страны с наибольшей долей пользователей Slack. [^4]
 |Страна | Количество пользователей |
 |-------------|-------------|
 |United States|193 055|
@@ -132,3 +133,4 @@ Slack представляет собой бизнес-мессенджер, о�
 [^1]: [MAU/DAU](https://www.statista.com/statistics/1025213/worldwide-slack-active-users/)
 [^2]: [Detailed_statistics](https://techjury.net/blog/slack-statistics/)
 [^3]: [Activity](https://www.sostav.ru/publication/we-are-social-i-hootsuite-52472.html)
+[^4]: [Countries](https://colorlib.com/wp/slack-statistics/)
