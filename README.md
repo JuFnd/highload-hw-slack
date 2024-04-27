@@ -290,7 +290,6 @@ Slack представляет собой бизнес-мессенджер, о�
 |User|Postgresql|
 |MessageChecked|ClickHouse|
 |ChannelMembership|Postgresql|
-|ChatMembership|Postgresql|
 |Chat|Postgresql|
 |Session|Redis|
 
