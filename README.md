@@ -405,6 +405,36 @@ Word2Vec - это алгоритм машинного обучения, кото
 Сбор метрик будет реализован следующим образом так как в Envoy нет прямого аналога конфигурации NGINX Exporter. Однако существуют другие способы получения метрик Envoy и их экспорта в Prometheus.
 Envoy предоставляет встроенный Prometheus metrics exporter, который позволяет собирать метрики посредством HTTP endpoint. Чтобы воспользоваться этим функционалом, необходимо включить prometheus статусный прокси в конфигурационном файле Envoy.
 
+Конфиг Prometheus
+```
+global:
+  scrape_interval:     15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: 'envoy'
+    static_configs:
+      - targets: ['localhost:9901']
+```
+
+Конфиг Envoy
+```
+http_servers:
+- name: "main"
+  ...
+  routes:
+  - match: { prefix: "/metrics" }
+    route:
+      cluster: "cluster_0"
+  listeners:
+  - name: "listener_0"
+    ...
+    filter_chains:
+    - filters:
+      - name: "prometheus"
+        config: {}
+```
+
 
 ### Источники
 [^1]: [MAU/DAU](https://www.statista.com/statistics/1025213/worldwide-slack-active-users/)
