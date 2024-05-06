@@ -476,6 +476,7 @@ http_servers:
 
 ### Конфигурация серверов
 |Service|Hosting|Configuration|Buy|Rent|
+|-------|-------|-------------|----|----|
 |User|own|Intel Xeon E3-1220 v6 OEM/4x4Gb/4xNVMe8Тb|500$|
 |Auth|own|Intel Xeon E3-1220 v6 OEM/4x4Gb/4xNVMe8Тb|500$|
 |Reaction|own|Intel Xeon Gold 6256 OEM/6x8Gb/4xNVMe8Тb|15600$|700$|
