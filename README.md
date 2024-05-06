@@ -466,12 +466,22 @@ http_servers:
 ### Базовый расчёт аппаратных ресурсов
 |Service|RPS|CPU|RAM|
 |------|-------|-------|-------|
-|User|168.61|2|2ГБ|
-|Auth|168.4|2|2ГБ|
+|User|168.61|2|16ГБ|
+|Auth|168.4|2|16ГБ|
 |Chat & Channel|4620.3|64|128ГБ|
-|Reaction|404.1|6|12ГБ|
+|Reaction|404.1|6|32ГБ|
 |Search|578.7|6|32ГБ|
+
 Расчёты сделаны из предположения 1 ядро CPU на 100 RPS
+
+### Конфигурация серверов
+|Service|Hosting|Configuration|Buy|Rent|
+|User|own|Intel Xeon E3-1220 v6 OEM/4x4Gb/4xNVMe8Тb|500$|
+|Auth|own|Intel Xeon E3-1220 v6 OEM/4x4Gb/4xNVMe8Тb|500$|
+|Reaction|own|Intel Xeon Gold 6256 OEM/6x8Gb/4xNVMe8Тb|15600$|700$|
+|Search|own|Intel Xeon Gold 6256 OEM/6x8Gb/4xNVMe8Тb|15600$|700$|
+|Chat|own|AMD EPYC 7763 SP3 OEM2x4Gb/8x16Gb/4xNVMe8Тb|26700$|900$|
+|Channel|own|AMD EPYC 7763 SP3 OEM/8x16Gb/4xNVMe8Tb|26700$|900$|
 
 ### Источники
 [^1]: [MAU/DAU](https://www.statista.com/statistics/1025213/worldwide-slack-active-users/)
