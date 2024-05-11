@@ -400,7 +400,7 @@ Word2Vec - это алгоритм машинного обучения, кото
 
 
 ## Часть 9. Схема проекта <a name="9"></a>
-![изображение](https://github.com/JuFnd/highload-hw-slack/assets/109366718/caeae5a1-932a-4192-9eed-33e05b3b69ec)
+![изображение](https://github.com/JuFnd/highload-hw-slack/assets/109366718/f3f01678-746a-449b-9c38-da7456a6d3be)
 ![изображение](https://github.com/JuFnd/highload-hw-slack/assets/109366718/3aaa9d7b-6a7c-4f3b-9342-1e025fe2989f)
 
 
